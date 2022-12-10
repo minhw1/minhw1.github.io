@@ -1,0 +1,36 @@
+body{text-align:center;}
+
+div{text-align : left;
+	margin : 10px;
+	height : 200px;
+	width: 150px;
+	position: relative;
+	float: left;
+	color : blue;
+	background-color: aliceblue;
+	}
+
+table { /* 이중 테두리 제거 */
+	border-collapse : collapse;
+	}
+thead{ background : darkgray;
+	color : yellow;
+}
+
+td, tfoot th { /* 아래쪽 테두리만 회색 */
+	border-bottom : 1px solid gray
+	}
+tbody tr:nth-child(even) { /* 짝수 <tr>에 적용*/
+background : aliceblue;
+}
+
+h1{text-shadow: 3px 3px 10px skyblue;
+	font-family : "Times New Roman", Serif;
+	font-size : 100px;}
+
+h2{font-size:30px;
+border:3px dotted pink;
+background-color: blanchedalmond;}
+
+h3{font-size: 15px;
+	background-color: aqua;}
